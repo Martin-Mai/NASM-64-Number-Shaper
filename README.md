@@ -1,5 +1,11 @@
 # NASM-64-Skeleton-Shaper
 
+## Ordered Skeleton Shapter:
+![](https://github.com/Martin-Mai/NASM-64-Skeleton-Program/blob/main/Demo/Inorder.jpg)
+
+## How the Skeleton Shapter program Switches:
+![](https://github.com/Martin-Mai/NASM-64-Skeleton-Program/blob/main/Demo/Example.jpg)
+
 ## Program Explanation:
 1. It defines an integer **array** of length 8, its name is up to you, but here I will call it **array**, and the skeleton program **fproj_skel.asm** also uses the name array.
 2. The array **array** is randomly initialized to the values from 1 to 8 by the call to **rperm**, see the skeleton program **fproj_skel.asm**.
@@ -10,11 +16,18 @@ If a pair of values **i** and **j** is entered, then in **array** the item conta
 5. The subroutine **display** has two parameters passed on the stack, one is the address of the array **array**, and the other is the size of the array, in this case 8.
 6. The subroutine **display** traverses the array and displays the value in each item of the array in a form of a box, for better understanding see the execution of **fproj.py**. It also must display the numberic value of the box underneath.
 7. The box of size 1 looks like this
+![](https://github.com/Martin-Mai/NASM-64-Skeleton-Program/blob/main/Demo/box1.jpg)
 8. The box of size 2 looks like this
+![](https://github.com/Martin-Mai/NASM-64-Skeleton-Program/blob/main/Demo/box2.jpg)
 9. The box of size 3 looks like this
+![](https://github.com/Martin-Mai/NASM-64-Skeleton-Program/blob/main/Demo/box3.jpg)
 10. The box of size 4 looks like this
+![](https://github.com/Martin-Mai/NASM-64-Skeleton-Program/blob/main/Demo/box4.jpg)
 11. The box of size 5 looks like this
-12. The box of size 6 looks like this
-13. The box of size 7 looks like this
-14. The box of size 8 looks like this
-15. The boxes are displayed adjusted to the same level at the bottom, side by side. Thus, the subroutine **display** must display it from top to bottom, one line at a time. So, **display** must loop **n** times, where **n** is the length of the input array. In this loop, it must prepare a line, and then displays it -- i.e **n** lines from top to bottom. For each line, it must figure out what to put in the line for each item of the array, i.e. must loop **n** times for each item of the array. For instance:
+![](https://github.com/Martin-Mai/NASM-64-Skeleton-Program/blob/main/Demo/box5.jpg)
+12. The box of size 8 looks like this
+![](https://github.com/Martin-Mai/NASM-64-Skeleton-Program/blob/main/Demo/box8.jpg)
+13. The boxes are displayed adjusted to the same level at the bottom, side by side. Thus, the subroutine **display** must display it from top to bottom, one line at a time. So, **display** must loop **n** times, where **n** is the length of the input array. In this loop, it must prepare a line, and then displays it -- i.e **n** lines from top to bottom. For each line, it must figure out what to put in the line for each item of the array, i.e. must loop **n** times for each item of the array. For instance:
+![](https://github.com/Martin-Mai/NASM-64-Skeleton-Program/blob/main/Demo/boxall.jpg)
+
+
