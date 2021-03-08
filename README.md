@@ -1,4 +1,4 @@
-# NASM-64-Number-Shaper
+# NASM-64-Skeleton-Shaper
 
 ## Program Explanation:
 1. It defines an integer **array** of length 8, its name is up to you, but here I will call it **array**, and the skeleton program **fproj_skel.asm** also uses the name array.
